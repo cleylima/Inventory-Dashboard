@@ -1,0 +1,27 @@
+[
+    {
+        "item": "Cadeiras",
+        "descricao": "Cadeiras plásticas",
+        "quantidade": 50
+    },
+    {
+        "item": "Mesas",
+        "descricao": "Mesas dobráveis",
+        "quantidade": 20
+    },
+    {
+        "item": "Copos",
+        "descricao": "Copos descartáveis",
+        "quantidade": 200
+    },
+    {
+        "item": "Pratos",
+        "descricao": "Pratos descartáveis",
+        "quantidade": 150
+    },
+    {
+        "item": "Toalhas",
+        "descricao": "Toalhas de mesa",
+        "quantidade": 10
+    }
+]

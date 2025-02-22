@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestão de Estoque</h1>
+
+        <div class="actions">
+            <input type="text" id="searchItem" placeholder="🔍 Pesquisar item...">
+            <button id="addItemBtn">➕ Adicionar Item</button>
+        </div>
+
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2>Resumo do Estoque</h2>
+        <canvas id="stockChart"></canvas>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar Item</h2>
+            <input type="text" id="itemName" placeholder="Nome do Item">
+            <input type="text" id="itemDesc" placeholder="Descrição">
+            <input type="number" id="itemQty" placeholder="Quantidade">
+            <button id="saveItem">Salvar</button>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
